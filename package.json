@@ -1,0 +1,21 @@
+{
+	"name": "utlimate_hackathon_monorepo",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"workspaces": {
+		"packages": [
+			"app/*"
+		],
+		"nohoist": [
+			"**/mobile",
+			"**/mobile/**"
+		]
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
